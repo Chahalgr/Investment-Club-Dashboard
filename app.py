@@ -19,12 +19,12 @@ selected_type = st.sidebar.multiselect("Select Security Type", options=df['Secur
 df_filtered = df[df['Ratings'].isin(selected_rating) & df['Security Type'].isin(selected_type)]
 
 # Main dashboard
-st.title("💼 Corporate Portfolio Dashboard")
+st.title("💼 SIC Portfolio Dashboard")
 
 # Top-level metrics
 total_value = df_filtered['Mkt Val'].sum()
 total_gain = df_filtered['Gain $'].sum()
-avg_gain_pct = df_filtered['Gain %'].mean()
+avg_gain_pct = (df_filtered['Gain $'].sum()/ df_filtered['Cost Basis'].sum())  if df_filtered['Cost Basis'].sum() != 0 else 0
 
 st.metric("Total Market Value", f"${total_value:,.2f}")
 st.metric("Total Gain ($)", f"${total_gain:,.2f}")
@@ -47,4 +47,4 @@ st.dataframe(df_filtered)
 
 # Footer
 st.markdown("---")
-st.markdown("Data Source: [Internal Corporate Holdings Sheet]")
+st.markdown("Data Source: Corporate-Positions-2025-03-10")
