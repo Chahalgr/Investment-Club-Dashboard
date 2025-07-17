@@ -2,7 +2,7 @@
 
 An interactive **Streamlit** web application built to visualize, track, and analyze the **portfolio performance** of the University of Wisconsin–Milwaukee's Student Investment Club.
 
-> 🔗 **Live Demo:** [View Deployed App Here]([https://your-streamlit-app-link](https://sic-portfolio.streamlit.app/])
+> 🔗 **Live Demo:** [View Deployed App Here]([https://sic-portfolio.streamlit.app/])
 
 ## 💼 About the Project
 
@@ -47,7 +47,7 @@ This dashboard was created as part of my role as **Quant Assistant Portfolio Man
 
 ## 📎 Links
 
-- 🔗 **Live App**: [[Insert your deployed Streamlit link here](https://sic-portfolio.streamlit.app/)]
+- 🔗 **Live App**: [View App here](https://sic-portfolio.streamlit.app/)
 
 ---
 
@@ -55,7 +55,7 @@ This dashboard was created as part of my role as **Quant Assistant Portfolio Man
 
 **Gurleen Singh**  
 Quant Assistant Portfolio Manager, UWM SIC  
-[LinkedIn]([https://www.linkedin.com/in/-gurleen-singh/]) | [Email](gurleen4@uwm.edu)
+[LinkedIn](https://www.linkedin.com/in/-gurleen-singh/) | [Email](gurleen4@uwm.edu)
 
 ---
 
